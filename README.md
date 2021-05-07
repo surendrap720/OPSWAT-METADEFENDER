@@ -5,7 +5,8 @@ A simple NodeJs program to scan a file against OPSWAT's metadefender.opswat.com 
 1. Install NodeJs Version 10
 2. Clone the repo 
 3. Install all the modules by running the command `npm install`
-4. In .env file substitute your api key inside the quotes Example: `APIKEY = "2b220b56b502e0aa5bf6557642f38089"`
+4. If `npm install` does not work you can do `npm install htts fs prompt-sync md5-file dotenv`
+5. In .env file substitute your api key inside the quotes Example: `APIKEY = "2b220b56b502e0aa5bf6557642f38089"`
 
 ## Folder Structure
 1. `.env` - file containing the APIKEY 
