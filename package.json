@@ -1,0 +1,27 @@
+{
+  "name": "opswat-metadefender",
+  "version": "1.0.0",
+  "description": "A simple NodeJs program to scan a file against OPSWAT's metadefender.opswat.com API.",
+  "main": "scan.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "md5-file": "^5.0.0",
+    "dotenv": "^9.0.0",
+    "https": "^1.0.0",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surendrap720/OPSWAT-METADEFENDER.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surendrap720/OPSWAT-METADEFENDER/issues"
+  },
+  "homepage": "https://github.com/surendrap720/OPSWAT-METADEFENDER#readme"
+}
